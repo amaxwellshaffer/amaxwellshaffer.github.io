@@ -1,0 +1,165 @@
+
+body{
+    position: relative;
+    background: url("./assets/cloudBridge.JPG") no-repeat fixed center;
+    background-size: cover;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(4,55,105), rgb(11, 95, 163));
+    z-index: 1;
+}
+
+/* nav bar stuff */
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.navbar-nav{
+    margin-right: 2em;
+}
+
+.navbar-nav .link-light{
+    opacity: .8;
+    transition: all .3s;
+}
+
+.link-light:hover{
+   opacity: 1;
+}
+
+/* home section stuff */
+#home{
+    display: flex;
+    height:100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#titles {
+    margin: auto;
+    justify-content: center;
+    color: white;
+    width:80%;
+}
+
+#designer{
+    display: inline-block;
+    text-align: right;
+    padding-right:25px;
+    padding-top: 15px;
+    background-color:rgba(4,55,105,.8);
+    border-radius: 50px 0px 0px 0px;
+    backdrop-filter: blur(4px);
+    margin:2px;
+    transition: all, .2s;
+}
+
+#developer{
+    display: inline-block;
+    text-align: left;
+    padding-left:25px;
+    padding-top: 15px;
+    background-color:rgba(4,55,105,.8);
+    border-radius: 0px 0px 50px 0px;
+    backdrop-filter: blur(4px);
+    margin: 2px;
+    transition: .2s;
+}
+
+#developer:hover {
+    transition: .5s;
+    transform: scale(1.02);
+}
+
+#designer:hover {
+    transition: .5s;
+    transform: scale(1.02);
+}
+
+/* about me section stuff */
+#about{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* height:600px; */
+    background-color:rgba(4,55,105,.9);
+    backdrop-filter: blur(4px);
+    /* border-radius: 75px 0px 75px 0px; */
+    padding-bottom: 30px;
+
+}
+
+#about-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+#about-left{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about-left img{
+    width:100%;
+    border-radius: 100px;
+}
+
+#about-right{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#about-left h1{
+    font-weight: bold;
+    color: rgb(4,55,105);
+    background-color: white;
+    border-radius: 15px 0 15px 0;
+}
+
+/* portfolio seciton */
+#portfolio{
+    /* height:600px; */
+    /* background-color:cadetblue; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 75px;
+}
+
+#portfolio h1{
+    width: 30%;
+    min-width: 200px;
+    margin: auto;
+    font-weight: bold;
+    background-color:rgba(4,55,105,.8);
+    border-radius: 15px 0px 15px 0px;
+    /* backdrop-filter: blur(4px); */
+}
+
+#cards-wrapper{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card{
+    display: inline-block;
+    /* width: 30%; */
+    margin:5px;
+    min-width: 145px;
+    padding-top: 10px;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
+}
+
+#portfolio .card-text{
+    color: black;
+}
+
+#contact{
+    height:600px;
+    /* background-color: lemonchiffon; */
+}
+
