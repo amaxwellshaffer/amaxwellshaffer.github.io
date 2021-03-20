@@ -54,7 +54,7 @@ nav{
     border-radius: 50px 0px 0px 0px;
     backdrop-filter: blur(4px);
     margin:2px;
-    transition: all, .2s;
+    transition: .2s;
 }
 
 #developer{
@@ -70,13 +70,15 @@ nav{
 }
 
 #developer:hover {
-    transition: .5s;
-    transform: scale(1.02);
+    /* transition: .5s; */
+    margin-left: -2px;
+    /* transform: scale(1.02); */
 }
 
 #designer:hover {
-    transition: .5s;
-    transform: scale(1.02);
+    /* transition: .2s; */
+    margin-right: -2px;
+    /* transform: scale(1.02); */
 }
 
 /* about me section stuff */
@@ -152,10 +154,42 @@ nav{
     padding-top: 10px;
     border-radius: 20px 0px 20px 0px;
     border: none;
+    background-color:rgba(4,55,105,.9);
+    transition: all .2s;
 }
 
+.card:hover{
+    box-shadow: 0px 0px 3px black;
+    background-color:rgba(4,55,105,1);
+}
+
+/* .lightsaber {
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(150,150,150,.5);
+    transition: all .2s;
+    display:inline-block;
+}
+
+.lightsaber2 {
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(150,150,150,.5);
+    transition: all .2s;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.card:hover .lightsaber , 
+.card:hover .lightsaber2{
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+} */
+
 #portfolio .card-text{
-    color: black;
+    color: white;
 }
 
 #contact{
