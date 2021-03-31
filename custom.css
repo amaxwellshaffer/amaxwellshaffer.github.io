@@ -180,6 +180,7 @@ nav{
     /* background-color:rgb(11, 95, 163); */
     box-shadow: 0px 0px 3px black;
 }
+
 /* 
 .image{
     position:relative;
@@ -237,10 +238,10 @@ nav{
     color: white;
 }
 
-#contact{
-    /* height:600px; */
-    /* background-color: lemonchiffon; */
-}
+/* #contact{
+    height:600px;
+    background-color: lemonchiffon;
+} */
 
 #contact{
     color: white;
