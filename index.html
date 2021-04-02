@@ -16,6 +16,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="shortcut icon" href="./assets/icon_3.ico">
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#mainNavBar">
@@ -104,7 +108,7 @@
           </a>
           <div class="card-body">
             <h4 class="card-title">CSS Bigfoot</h4>
-            <p class="card-text">My first attempt at CSS art. <br>HTML | CSS</p>
+            <p class="card-text text-white-50">My first attempt at CSS art. <br>HTML | CSS</p>
           </div>
         </div>
         
@@ -134,12 +138,12 @@
       <div class="row">
         
         <div class="card col-md">
-          <a href="https://codepen.io/AndrewMShaffer/pen/qBqaqjE" target="_blank">
-            <div class="card-img-top square" style="background-image: url('./assets/CSSBigfoot.png')"></div>
+          <a href="https://ams-api-2.web.app/" target="_blank">
+            <div class="card-img-top square" style="background-image: url('./assets/d-20-screenshot.png')"></div>
           </a>
           <div class="card-body">
-            <h4 class="card-title">CSS Bigfoot</h4>
-            <p class="card-text">My first attempt at CSS art.</p>
+            <h4 class="card-title">D-20 Meal Finder</h4>
+            <p class="card-text">An API for seeking new recipes.<br>HTML | CSS | JS | Bootstrap </p>
           </div>
         </div>
         
@@ -176,11 +180,41 @@
   <div id="contact">
     <div id="contact-container">
       <div id="contact-wrapper">
-          <h1>Contact</h1>
+          <div><h1>Contact</h1></div>
+          <div id="external" class="row">
+            <a href=""><i class="fa fa-linkedin-square " style="font-size:75px;"></i></a>
+            <a href=""><i class="fa fa-behance-square" style="font-size:75px;"></i></a>
+            <a href=""><i class="fa fa-github-square" style="font-size:75px;"></i></a>
+          </div>
+          <P>Download my <a href="">Resume</a> and <a href="">Portfolio</a></P>
       </div>
+
     </div>
   </div>
 
+  <div id="formspree-wrapper">
+
+    <div id="formspree">
+      <h5>Send Me an E-mail</h5>
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqyqqne" method="post">
+        <fieldset id="fs-frm-inputs">
+          <!-- <label for="full-name">Full Name</label> -->
+          
+          <input type="text" name="name" id="full-name" placeholder="Your Name" required="">
+          
+          <!-- <label for="email-address">Email Address</label> -->
+          
+          <input type="email" name="_replyto" id="email-address" placeholder="Your E-mail" required="">
+          
+          <!-- <label for="message">Message</label> -->
+          
+          <textarea rows="5" name="message" id="message" placeholder="Your Message" required=""></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>

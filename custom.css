@@ -138,8 +138,7 @@ nav{
 
 /* portfolio seciton */
 #portfolio{
-    /* height:600px; */
-    background-color:white;
+    /* background-color:skyblue; */
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -152,7 +151,7 @@ nav{
     min-width: 200px;
     margin: auto;
     font-weight: bold;
-    background-color:rgba(4,55,105);
+    background-color:rgb(11, 95, 163);
     border-radius: 15px 0px 15px 0px;
     /* backdrop-filter: blur(4px); */
 }
@@ -244,6 +243,8 @@ nav{
 } */
 
 #contact{
+    /* background-color: white; */
+    
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding-top: 75px;
@@ -255,7 +256,7 @@ nav{
 }
 
 #contact-wrapper{
-    display: flex;
+    /* display: flex; */
     backdrop-filter: blur(4px);
     width: 80%;
     margin: auto;
@@ -271,4 +272,77 @@ nav{
     color: rgb(4,55,105);
     background-color: white;
     border-radius: 15px 0 15px 0;
+}
+
+#external{
+    display: flex;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+i {
+    color: white;
+    margin:0px;
+    padding: 0px;
+    transition: all .3s;
+}
+
+i:hover{
+    transform: scale(1.1);
+    color: gold;
+}
+
+#contact-wrapper a{
+    margin:0px;
+    padding: 0px;
+    width: auto;
+    color: white;
+    transition: all .2s;
+}
+
+#contact-wrapper p a:hover{
+    color: gold;
+}
+
+#contact-wrapper a:visited{
+    color: white;
+}    
+
+#formspree-wrapper{
+    background-image: linear-gradient(352deg, rgb(255, 196, 0) 30%, white 30.1%);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+#formspree{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4,55,105);
+    width: 60%;
+    min-width: 320px;
+    margin: auto;
+    background-color: rgba(255,255,255,.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#formspree h5{
+    font-weight: bold;
+}
+#fs-frm{
+    margin: auto;
+    width:50%;
+    min-width: 300px;
+}
+
+#formspree input, #formspree textarea{
+   margin-top: 5px;
+    width: 300px;
 }
