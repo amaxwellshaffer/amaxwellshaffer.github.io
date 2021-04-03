@@ -105,6 +105,7 @@ nav{
 
 #about-container{
     background-color:rgba(4,55,105);
+    background-image: linear-gradient(to top, rgb(4,55,105), rgb(11, 95, 163));
     padding-bottom: 30px;
 }
 
@@ -120,7 +121,7 @@ nav{
 }
 
 #about-left img{
-    width:100%;
+    width:80%;
     border-radius: 100px;
 }
 
@@ -131,7 +132,7 @@ nav{
 
 #about-left h1{
     font-weight: bold;
-    color: rgb(4,55,105);
+    color: rgb(11, 95, 163);
     background-color: white;
     border-radius: 15px 0 15px 0;
 }
@@ -252,6 +253,7 @@ nav{
 
 #contact-container{
     background-color:rgba(4,55,105);
+    background-image: linear-gradient(to top, rgb(4,55,105), rgb(11, 95, 163));
     padding-bottom: 30px;
 }
 
@@ -269,7 +271,7 @@ nav{
     min-width: 300px;
     margin: auto;
     font-weight: bold;
-    color: rgb(4,55,105);
+    color: rgb(11, 95, 163);
     background-color: white;
     border-radius: 15px 0 15px 0;
 }
@@ -345,4 +347,12 @@ i:hover{
 #formspree input, #formspree textarea{
    margin-top: 5px;
     width: 300px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
 }
